@@ -7,6 +7,7 @@
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
+
 *{
     font-family: 'Roboto', sans-serif;
     margin:0; padding:0;
@@ -33,7 +34,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background: #fff;
+    background: rgb(51, 47, 47);
     border-radius: 5rem;
 }
 
@@ -107,7 +108,8 @@ div.lienhe{
 }
 
 .header .icons div{
-    color:#fff;
+    color:rgb(0, 0, 0);
+    /* 2 */
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
@@ -214,7 +216,7 @@ div.lienhe{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* background:url(../DATA/Màu\ kem\ Màu\ be\ Sạch\ Thu\ nhỏ\ Cá\ nhân\ Podcast\ Phát\ trực\ tiếp\ Ảnh\ bìa\ Facebook.png) no-repeat; */
+    background:url(../DATA/Màu\ kem\ Màu\ be\ Sạch\ Thu\ nhỏ\ Cá\ nhân\ Podcast\ Phát\ trực\ tiếp\ Ảnh\ bìa\ Facebook.png) no-repeat; 
     background-size: cover;
     background-position: center;
 }
@@ -226,7 +228,8 @@ div.lienhe{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#fff;
+    color:rgb(0, 0, 0);
+    /* 1 */
 }
 
 .home .content p{
@@ -899,4 +902,41 @@ div.lienhe{
   }
   h4{
       font-size: 2rem;
+  }
+  /* div.content{
+      position: relative;
+  } */
+  div.nameweb{
+      /* position: absolute;
+      top:150px;
+      left: 20px; */
+      color: #ffffff;
+      
+      /* padding: 0 200px 0 0px; */
+      margin: 0 0 0 0px;;
+      
+  }
+  h1{
+      font-size: 3rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+      
+  }
+  .tencty{
+      color: #ffbd48;
+      font-size: 5rem;
+      /* padding: 0 0 0 80px; */
+      /* font-style: bold; */
+
+  }
+  .congnghiep{
+      font-size: 3.7rem;
+      /* padding: 0  0 0 75px; */
+  }
+  .cauquote{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+      font-style: oblique;
+      font-size: 1.5rem;
+      /* text-align: center; */
+    
   }
