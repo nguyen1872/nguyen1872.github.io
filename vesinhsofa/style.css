@@ -17,7 +17,9 @@
     /* text-transform: capitalize; */
     transition: .2s linear;
 }
-
+.anhxaydung{
+    width: 70%;
+}
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -951,6 +953,9 @@ h3{
       padding: 0 0 100px 0;
       text-align: top;
   } */
+.listtaisao{
+    font-size: 15px;
+}
 p{
     text-align: justify;
 }
